@@ -32,7 +32,7 @@ if choose == "Home":
   )
   st.markdown("")
 
-  df = pd.read_excel("D:\Streamlit\data.xlsx")
+  df = pd.read_excel("database.xlsx")
   kota_df = df["Lokasi"]
   lokasi = st.selectbox("Pilih lokasi Anda..",kota_df,21)
   wilayah = lokasi.split(",") 
