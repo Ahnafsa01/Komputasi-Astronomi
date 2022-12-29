@@ -2,7 +2,7 @@
 """
 Created on Wed Dec 28 01:03:13 2022
 
-@author: Isnurul Syamsul A
+@author: Ahnaf Sabilah Arif
 """
 
 import streamlit as st
@@ -19,7 +19,7 @@ def main():
     
     with st.expander("Database"):
         st.write("Database dibuat dengan menggunakan file excel, berikut merupakan database yang digunakan.")
-        df = pd.read_excel("D:\Streamlit\data.xlsx")
+        df = pd.read_excel("database.xlsx")
         st.dataframe(df)
         st.write(
               """     
