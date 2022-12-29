@@ -5,3 +5,4 @@ sympy
 streamlit-option-menu
 streamlit
 datetime
+openpyxl 
