@@ -4,5 +4,4 @@ pytz
 sympy               
 streamlit-option-menu
 streamlit
-calendar
 datetime
